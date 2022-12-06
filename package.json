@@ -1,0 +1,26 @@
+{
+  "name": "node-dice",
+  "version": "1.0.0",
+  "description": "The purpose of this assignment is to create an installable Node.js module package.",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "node ./bin/cli.js"
+  },
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-yantangyantang.git"
+  },
+  "author": "yantangyantang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-yantangyantang/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/comp426-2022-fall/a03-yantangyantang#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
